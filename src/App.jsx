@@ -5,6 +5,7 @@ import AboutUs4 from "./komponenten/aboutUs/AboutUs4";
 import Hero1 from "./komponenten/hero/Hero1";
 import Kontakt1 from "./komponenten/kontakt/Kontakt1";
 import Kontakt2 from "./komponenten/kontakt/Kontakt2";
+import Kontakt3 from "./komponenten/kontakt/Kontakt3";
 import Navbar1 from "./komponenten/navbars/Navbar1";
 
 function App() {
@@ -16,8 +17,9 @@ function App() {
       <AboutUs2 />
       <AboutUs3 />
       <AboutUs4 /> */}
-      <Kontakt1/>
-      <Kontakt2/>
+      {/* <Kontakt1/>
+      <Kontakt2/> */}
+      <Kontakt3/>
     </div>
   );
 }
