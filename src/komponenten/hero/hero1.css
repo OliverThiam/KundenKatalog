@@ -8,7 +8,7 @@
   background-position: center center;
   opacity: 0;
   animation-name: fade-zoom;
-  animation-duration: 18s;
+  animation-duration: 12s;
   animation-iteration-count: infinite;
   
 }
@@ -18,11 +18,11 @@
 }
 
 .bg-fade:nth-child(2) {
-  animation-delay: 6s;
+  animation-delay: 4s;
 }
 
 .bg-fade:nth-child(3) {
-  animation-delay: 12s;
+  animation-delay: 8s;
 }
 
 @keyframes fade-zoom {
