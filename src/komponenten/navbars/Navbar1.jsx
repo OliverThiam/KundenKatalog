@@ -36,8 +36,8 @@ const Navbar1 = () => {
       </div>
       <div className="md:flex hidden ">
         <ul className="flex items-center text-lg">
-          <li className="cursor-pointer hover:text-primary duration-300 pr-4">
-            <a href="#home">Home</a>
+          <li className="cursor-pointer hover:text-primary duration-100 pr-4  ">
+            <a href="#home" className=''>Home</a>
           </li>
           <li className="cursor-pointer hover:text-primary duration-300 px-4">
             <a href="#über-uns">Über uns</a>
