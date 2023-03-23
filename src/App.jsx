@@ -8,6 +8,8 @@ import Kontakt1 from "./komponenten/kontakt/Kontakt1";
 import Kontakt2 from "./komponenten/kontakt/Kontakt2";
 import Kontakt3 from "./komponenten/kontakt/Kontakt3";
 import Navbar1 from "./komponenten/navbars/Navbar1";
+import Team1 from "./komponenten/team/Team1";
+import TeamCard1 from "./komponenten/team/TeamCard1";
 
 function App() {
   return (
@@ -16,9 +18,10 @@ function App() {
       {/* <Hero1 /> */}
       <Hero2/>
       {/* <AboutUs1 /> */}
-      {/* <AboutUs2 /> */}
+      <AboutUs2 />
       {/* <AboutUs3 /> */}
       {/* <AboutUs4 /> */}
+      <Team1/>
       {/* <Kontakt1/> */}
       {/* <Kontakt2/> */}
       {/* <Kontakt3/> */}

@@ -25,9 +25,8 @@ const Hero2 = () => {
             dignissimos
           </p>
         </div>
-        <div className="flex justify-center">
-          <button className="bg-white rounded-md p-2 px-6 mr-4 sm:mr-6">Klicke hier</button>
-          <button className="bg-white rounded-md p-2 px-6 ml-4 sm:ml-6">Klicke hier</button>
+        <div className="">
+          <button className="bg-white rounded-md p-2 px-20 mr-4 sm:mr-6">Klicke hier</button>
         </div>
       </div>
         <div className="absolute inset-0 h-full">
