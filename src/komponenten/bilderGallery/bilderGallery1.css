@@ -1,8 +1,8 @@
 .container {
   position: relative;
   min-width: 100vw;
-  min-height: 100vh;
   background-color: gray;
+  
 }
 
 .container .image-container {
@@ -66,3 +66,25 @@
         width: 95%;
     }
 }
+
+.imagePopup-fadeIn {
+    animation: fadeIn 0.3s both;
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }

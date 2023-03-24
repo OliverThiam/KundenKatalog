@@ -30,10 +30,13 @@ const BilderGallery1 = () => {
         document.querySelector(".popup-image span").onclick = () => {
             document.querySelector(".popup-image").style.display = "none"
         } 
+        document.querySelector(".popup-image").onclick = () => {
+            document.querySelector(".popup-image").style.display = "none"
+        } 
     }, []);
 
     return (
-    <div className="container ">
+    <div className="container py-12">
       <div className="image-container">
         <div className="image">
           <img src={bild} alt="bild" className="image" />
@@ -54,9 +57,9 @@ const BilderGallery1 = () => {
           <img src={bild3} alt="bild3" className="image" />
         </div>
       </div>
-      <div className="popup-image">
+      <div className="popup-image imagePopup-fadeIn ">
         <span>&times;</span>
-        <img src={bild} alt="" />
+        <img src="" alt="" />
       </div>
     </div>
   );
