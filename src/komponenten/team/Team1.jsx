@@ -12,10 +12,32 @@ const Team1 = () => {
             facere tempora sed velit, aspernatur repellendus reprehenderit ea
             mollitia eligendi soluta natus, enim sapiente atque. Beatae fugiat
             facilis praesentium! Vero.
+            <br className="mb-2"/>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, ab
+            facere tempora sed velit, aspernatur repellendus reprehenderit ea
+            <br className="mb-2"/>
+            mollitia eligendi soluta natus, enim sapiente atque. Beatae fugiat
+            facilis praesentium! Vero.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, ab
+            facere tempora sed velit, aspernatur repellendus reprehenderit ea
+            mollitia eligendi soluta natus, enim sapiente atque. Beatae fugiat
+            facilis praesentium! Vero.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, ab
+            <br className="mb-2"/>
+            facere tempora sed velit, aspernatur repellendus reprehenderit ea
+            mollitia eligendi soluta natus, enim sapiente atque. Beatae fugiat
+            facilis praesentium! Vero.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, ab
+            facere tempora sed velit, aspernatur repellendus reprehenderit ea
+            mollitia eligendi soluta natus, enim sapiente atque. Beatae fugiat
+            facilis praesentium! Vero.
           </p>
         </div>
         <div className="sm:w-1/2 md:ml-2 grid sm:grid-cols-2 gap-4 justify-items-start sm:justify-items-end  ">
             <div className="">
+                <TeamCard1 name="Name Nachname"/>
+            </div>
+            <div>
                 <TeamCard1 name="Name Nachname"/>
             </div>
             <div>

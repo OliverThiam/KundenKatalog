@@ -2,6 +2,7 @@ import AboutUs1 from "./komponenten/aboutUs/AboutUs1";
 import AboutUs2 from "./komponenten/aboutUs/AboutUs2";
 import AboutUs3 from "./komponenten/aboutUs/AboutUs3";
 import AboutUs4 from "./komponenten/aboutUs/AboutUs4";
+import BilderGallery1 from "./komponenten/bilderGallery/BilderGallery1";
 import Hero1 from "./komponenten/hero/Hero1";
 import Hero2 from "./komponenten/hero/Hero2";
 import Kontakt1 from "./komponenten/kontakt/Kontakt1";
@@ -14,14 +15,15 @@ import TeamCard1 from "./komponenten/team/TeamCard1";
 function App() {
   return (
     <div className="App">
-      <Navbar1 />
+      {/* <Navbar1 /> */}
       {/* <Hero1 /> */}
-      <Hero2/>
+      {/* <Hero2/> */}
       {/* <AboutUs1 /> */}
-      <AboutUs2 />
+      {/* <AboutUs2 /> */}
       {/* <AboutUs3 /> */}
       {/* <AboutUs4 /> */}
-      <Team1/>
+      {/* <Team1/> */}
+      <BilderGallery1/>
       {/* <Kontakt1/> */}
       {/* <Kontakt2/> */}
       {/* <Kontakt3/> */}

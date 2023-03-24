@@ -29,10 +29,11 @@ const Hero2 = () => {
           <button className="bg-white rounded-md p-2 px-20 mr-4 sm:mr-6">Klicke hier</button>
         </div>
       </div>
-        <div className="absolute inset-0 h-full">
+        <div className="absolute inset-0 h-[100vh]">
 
          <Splide
         options={{
+          speed: 1500,
             arrows: false,
             autoplay: true,
           perMove: 1,
@@ -46,11 +47,11 @@ const Hero2 = () => {
 
           <SplideSlide
           >
-           <img src={bild} alt="" />
+           <img src={bild} alt="" className="h-[100vh] w-[100vw]"/>
           </SplideSlide>
           <SplideSlide
           >
-           <img src={bild2} alt="" />
+           <img src={bild2} alt="" className="h-[100vh] w-[100vw]"/>
           </SplideSlide>
       </Splide>
             </div>
