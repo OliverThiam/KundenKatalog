@@ -15,9 +15,9 @@ import TeamCard1 from "./komponenten/team/TeamCard1";
 function App() {
   return (
     <div className="App">
-      {/* <Navbar1 /> */}
+      <Navbar1 />
       {/* <Hero1 /> */}
-      {/* <Hero2/> */}
+      <Hero2/>
       {/* <AboutUs1 /> */}
       {/* <AboutUs2 /> */}
       {/* <AboutUs3 /> */}

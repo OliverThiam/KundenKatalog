@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import "./bilderGallery1.css";
 import bild from "../../assets/cat.jpg";
 import bild1 from "../../assets/hund.jpg";
@@ -7,18 +7,32 @@ import bild3 from "../../assets/farmhaus.jpg";
 
 const BilderGallery1 = () => {
 
-    document.querySelectorAll(".image-container img").forEach(image => {
-        image.onclick = () => {
-            document.querySelector(".popup-image").style.display = "block";
-            document.querySelector(".popup-image img").src = image.getAttributes("src")
-        }
-    })
+    // document.querySelectorAll(".image-container img").forEach(image => {
+    //     image.onclick = () => {
+    //         document.querySelector(".popup-image").style.display = "block";
+    //         document.querySelector(".popup-image img").src = image.getAttribute("src")
+    //     }
+    // })
 
-    document.querySelector(".popup-image span").onclick = () => {
-        document.querySelector(".popup-image").style.display = "none"
-    } 
+    // document.querySelector(".popup-image span").onclick = () => {
+    //     document.querySelector(".popup-image").style.display = "none"
+    // } 
 
-  return (
+
+    useEffect(() => {
+        document.querySelectorAll(".image-container img").forEach(image => {
+            image.onclick = () => {
+                document.querySelector(".popup-image").style.display = "block";
+                document.querySelector(".popup-image img").src = image.getAttribute("src")
+            }
+        })
+
+        document.querySelector(".popup-image span").onclick = () => {
+            document.querySelector(".popup-image").style.display = "none"
+        } 
+    }, []);
+
+    return (
     <div className="container ">
       <div className="image-container">
         <div className="image">
