@@ -2,6 +2,7 @@ import AboutUs1 from "./komponenten/aboutUs/AboutUs1";
 import AboutUs2 from "./komponenten/aboutUs/AboutUs2";
 import AboutUs3 from "./komponenten/aboutUs/AboutUs3";
 import AboutUs4 from "./komponenten/aboutUs/AboutUs4";
+import Besonderheiten from "./komponenten/besonderheiten/Besonderheiten";
 import BilderGallery1 from "./komponenten/bilderGallery/BilderGallery1";
 import Footer1 from "./komponenten/footer/Footer1";
 import Footer2 from "./komponenten/footer/Footer2";
@@ -20,15 +21,16 @@ function App() {
       <Navbar1 />
       <Hero1 />
       {/* <Hero2/> */}
-      <AboutUs1 />
-      <AboutUs2 />
-      <AboutUs3 />
-      <AboutUs4 />
-      <Team1/>
-      <BilderGallery1/>
-      <Kontakt1/>
-      <Kontakt2/>
-      <Kontakt3/>
+      {/* <AboutUs1 /> */}
+      {/* <AboutUs2 /> */}
+      {/* <AboutUs3 /> */}
+      {/* <AboutUs4 /> */}
+      {/* <Team1/> */}
+      {/* <BilderGallery1/> */}
+      <Besonderheiten/>
+      {/* <Kontakt1/> */}
+      {/* <Kontakt2/> */}
+      {/* <Kontakt3/> */}
       {/* <Footer1/> */}
       <Footer2/>
     </div>
