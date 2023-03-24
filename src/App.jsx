@@ -4,6 +4,7 @@ import AboutUs3 from "./komponenten/aboutUs/AboutUs3";
 import AboutUs4 from "./komponenten/aboutUs/AboutUs4";
 import BilderGallery1 from "./komponenten/bilderGallery/BilderGallery1";
 import Footer1 from "./komponenten/footer/Footer1";
+import Footer2 from "./komponenten/footer/Footer2";
 import Hero1 from "./komponenten/hero/Hero1";
 import Hero2 from "./komponenten/hero/Hero2";
 import Kontakt1 from "./komponenten/kontakt/Kontakt1";
@@ -28,7 +29,8 @@ function App() {
       <Kontakt1/>
       <Kontakt2/>
       <Kontakt3/>
-      <Footer1/>
+      {/* <Footer1/> */}
+      <Footer2/>
     </div>
   );
 }
