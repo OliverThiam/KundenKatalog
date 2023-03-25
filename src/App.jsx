@@ -5,6 +5,7 @@ import AboutUs4 from "./komponenten/aboutUs/AboutUs4";
 import Besonderheiten from "./komponenten/besonderheiten/Besonderheiten";
 import Besonderheiten2 from "./komponenten/besonderheiten/Besonderheiten2";
 import Besonderheiten3 from "./komponenten/besonderheiten/Besonderheiten3";
+import Besonderheiten4 from "./komponenten/besonderheiten/Besonderheiten4";
 import BilderGallery1 from "./komponenten/bilderGallery/BilderGallery1";
 import Footer1 from "./komponenten/footer/Footer1";
 import Footer2 from "./komponenten/footer/Footer2";
@@ -35,6 +36,7 @@ function App() {
       {/* <Besonderheiten/> */}
       {/* <Besonderheiten2/> */}
       {/* <Besonderheiten3/> */}
+      <Besonderheiten4/>
       {/* <Kontakt1/> */}
       {/* <Kontakt2/> */}
       {/* <Kontakt3/> */}
