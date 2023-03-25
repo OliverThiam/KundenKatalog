@@ -3,6 +3,7 @@ import AboutUs2 from "./komponenten/aboutUs/AboutUs2";
 import AboutUs3 from "./komponenten/aboutUs/AboutUs3";
 import AboutUs4 from "./komponenten/aboutUs/AboutUs4";
 import Besonderheiten from "./komponenten/besonderheiten/Besonderheiten";
+import Besonderheiten2 from "./komponenten/besonderheiten/Besonderheiten2";
 import BilderGallery1 from "./komponenten/bilderGallery/BilderGallery1";
 import Footer1 from "./komponenten/footer/Footer1";
 import Footer2 from "./komponenten/footer/Footer2";
@@ -28,6 +29,7 @@ function App() {
       {/* <Team1/> */}
       {/* <BilderGallery1/> */}
       <Besonderheiten/>
+      <Besonderheiten2/>
       {/* <Kontakt1/> */}
       {/* <Kontakt2/> */}
       {/* <Kontakt3/> */}
