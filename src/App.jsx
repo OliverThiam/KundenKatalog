@@ -28,11 +28,11 @@ function App() {
       {/* <AboutUs4 /> */}
       {/* <Team1/> */}
       {/* <BilderGallery1/> */}
-      <Besonderheiten/>
-      <Besonderheiten2/>
-      {/* <Kontakt1/> */}
-      {/* <Kontakt2/> */}
-      {/* <Kontakt3/> */}
+      {/* <Besonderheiten/> */}
+      {/* <Besonderheiten2/> */}
+      <Kontakt1/>
+      <Kontakt2/>
+      <Kontakt3/>
       {/* <Footer1/> */}
       <Footer2/>
     </div>

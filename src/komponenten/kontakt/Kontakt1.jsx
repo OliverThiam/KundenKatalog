@@ -4,8 +4,8 @@ import React from "react";
 const Kontakt1 = () => {
   return (
     <section className="bg-gray-200 p-6 md:px-20 py-12 w-full">
-      <div className="flex flex-col sm:flex-row  w-full">
-        <div className="sm:w-1/2 w-full mb-6 sm:mb-0">
+      <div className="flex flex-col justify-around sm:flex-row w-full">
+        <div className="mb-6 sm:mb-0">
           <div>
             <h2 className="text-2xl sm:text-3xl uppercase ">Kontakt</h2>
             <p className="mb-4">Ruf an oder schreib uns</p>
@@ -30,7 +30,7 @@ const Kontakt1 = () => {
           </div>
         </div>
 
-        <div className="w-full sm:w-1/2">
+        <div className="sm:w-[60%] md:w-[60%] max-w-[800px] ">
           <form className=" w-[100%] ">
             <div className="flex flex-wrap sm:flex-nowrap mb-2">
               <div className="w-full md:w-1/2 sm:mr-1 mb-2 md:mb-0">

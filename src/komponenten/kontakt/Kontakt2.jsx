@@ -3,13 +3,13 @@ import React from "react";
 const Kontakt2 = () => {
   return (
     <section id="kontakt" className="2 font-poppins bg-gray-300">
-      <div className="sm:p-12 p-6 pt-12 flex flex-col sm:flex-row gap-x-16">
-        <div className="sm:w-3/4 py-6">
+      <div className="sm:p-12 p-6 pt-12 flex flex-col sm:justify-between xl:justify-center sm:flex-row gap-x-16">
+        <div className="sm:w-[800px] py-6">
           <div>
             <h1 className="text-4xl  ">
               Kontakt aufnehmen
             </h1>
-            <div className="flex pb-5">
+            <div className="flex mb-3">
               <hr className="w-[100px] h-[2px] font-extrabold " />
               <hr className="w-[180px] h-[2px] font-extrabold bg-gray-300" />
             </div>
@@ -71,7 +71,7 @@ const Kontakt2 = () => {
             </div>
           </form>
         </div>
-        <div className="sm:w-1/4 flex flex-col justify-around">
+        <div className=" flex flex-col justify-around">
           <div>
             <div className="pb-5">
               <h2 className="text-2xl  ">
