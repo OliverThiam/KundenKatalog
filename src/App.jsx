@@ -10,6 +10,7 @@ import Footer1 from "./komponenten/footer/Footer1";
 import Footer2 from "./komponenten/footer/Footer2";
 import Hero1 from "./komponenten/hero/Hero1";
 import Hero2 from "./komponenten/hero/Hero2";
+import Hero3 from "./komponenten/hero/Hero3";
 import Kontakt1 from "./komponenten/kontakt/Kontakt1";
 import Kontakt2 from "./komponenten/kontakt/Kontakt2";
 import Kontakt3 from "./komponenten/kontakt/Kontakt3";
@@ -22,17 +23,18 @@ function App() {
   return (
     <div className="App">
       <Navbar1 />
-      <Hero1 />
+      {/* <Hero1 /> */}
       {/* <Hero2/> */}
+      <Hero3/>
       {/* <AboutUs1 /> */}
       {/* <AboutUs2 /> */}
       {/* <AboutUs3 /> */}
       {/* <AboutUs4 /> */}
       {/* <Team1/> */}
       {/* <BilderGallery1/> */}
-      <Besonderheiten/>
-      <Besonderheiten2/>
-      <Besonderheiten3/>
+      {/* <Besonderheiten/> */}
+      {/* <Besonderheiten2/> */}
+      {/* <Besonderheiten3/> */}
       {/* <Kontakt1/> */}
       {/* <Kontakt2/> */}
       {/* <Kontakt3/> */}

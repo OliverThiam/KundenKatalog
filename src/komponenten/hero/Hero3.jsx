@@ -1,11 +1,12 @@
 import React from "react";
-import "./hero1.css";
+import "./hero3.css";
 import bild from "../../assets/cat.jpg";
 import bild1 from "../../assets/hund.jpg";
 import bild2 from "../../assets/behandlung.jpg";
 import bild3 from "../../assets/farmhaus.jpg";
+import { Facebook, Instagram, WhatsApp } from "@mui/icons-material";
 
-const Hero1 = () => {
+const Hero3 = () => {
   return (
     <div className="relative h-[92vh] overflow-hidden">
       <div className="text-container block max-w-[800px] text-center mx-auto p-4">
@@ -21,10 +22,26 @@ const Hero1 = () => {
             dignissimos
           </p>
         </div>
-        <div className="flex justify-center">
-          <button className="bg-white rounded-md p-2 px-6 mr-4 sm:mr-6">Klicke hier</button>
-          <button className="bg-white rounded-md p-2 px-6 ml-4 sm:ml-6">Klicke hier</button>
-        </div>
+        <div className="flex flex-row justify-center mb-4 sm:mb-4">
+            <div className="px-4 shadow-lg">
+              <div className="bg-white text-gray-900 p-1.5 rounded-full ">
+                <Facebook sx={{ height: "26px", width: "26px" }} />
+              </div>
+            </div>
+            <div className="px-4 shadow-lg">
+              <div className="bg-white text-gray-900 p-1.5 rounded-full ">
+                <WhatsApp sx={{ height: "26px", width: "26px" }} />
+              </div>
+            </div>
+            <div className="px-4 shadow-lg">
+              <div className="bg-white text-gray-900 p-1.5 rounded-full ">
+                <Instagram sx={{ height: "26px", width: "26px" }} />
+              </div>
+            </div>
+          </div>
+          <div className="mt-10 text-center ">
+        <a href="#" className="bg-white shadow-lg text-gray-800 p-4 px-10 rounded-md">Klicken</a>
+      </div>
       </div>
       <div className="h-[full] w-full ">
         {/* <div className='bg-fade' style={{backgroundImage: `url(${bild})`}}></div> */}
@@ -46,4 +63,4 @@ const Hero1 = () => {
   );
 };
 
-export default Hero1;
+export default Hero3;
