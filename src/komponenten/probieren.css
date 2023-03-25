@@ -1,0 +1,36 @@
+@keyframes down {
+    0%{
+        height: 0;
+    }
+    100%{
+        height: 100px;
+    }
+    
+}
+@keyframes up {
+    0%{
+        height:100px;
+        opacity: 1;
+    }
+    100%{
+        height: 0;
+    }
+    
+}
+
+.menu-down{
+    animation: down 0.5s both;
+}
+.menu-up{
+    animation: up 0.5s both;
+}
+
+.slide-down {
+    transform: translateY(0);
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .slide-up {
+    transform: translateY(-100%);
+    transition: transform 0.5s ease-in-out;
+  }
