@@ -31,13 +31,14 @@ const Lesitungen2 = () => {
                     <div className="border-b-[1px] ">
                       <Accordion
                         key={index}
-                        sx={{ pr: 2, boxShadow: "none" }}
+                        sx={{ pr: 2, boxShadow: "none",  }}
                         className=""
                         expanded={expanded === `panel${index}`}
                         onChange={handleChange(`panel${index}`)}
                       >
                         <AccordionSummary
-                          sx={{ padding: 0 }}
+                        className=""
+                          sx={{ padding: 0,  }}
                           expandIcon={<ExpandMore className="" />}
                         >
                           <p className=" w-full">{faq.leistung}</p>

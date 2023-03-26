@@ -19,6 +19,7 @@ import Leistungen1 from "./komponenten/leistungen/Leistungen1";
 import Lesitungen2 from "./komponenten/leistungen/Lesitungen2";
 import Navbar1 from "./komponenten/navbars/Navbar1";
 import Probieren from "./komponenten/Probieren";
+import Referenzen from "./komponenten/referenzen/Referenzen";
 import Team1 from "./komponenten/team/Team1";
 import TeamCard1 from "./komponenten/team/TeamCard1";
 
@@ -27,20 +28,21 @@ function App() {
     <div className="App">
       <Navbar1 />
       {/* <Hero1 /> */}
-      <Hero2/>
-      {/* <Hero3/> */}
+      {/* <Hero2/> */}
+      <Hero3/>
       {/* <AboutUs1 /> */}
       {/* <AboutUs2 /> */}
       {/* <AboutUs3 /> */}
       {/* <AboutUs4 /> */}
-      <Team1/>
+      {/* <Team1/> */}
       {/* <BilderGallery1/> */}
       {/* <Besonderheiten/> */}
       {/* <Besonderheiten2/> */}
       {/* <Besonderheiten3/> */}
-      <Besonderheiten4/>
-      <Leistungen1/>
+      {/* <Besonderheiten4/> */}
+      {/* <Leistungen1/> */}
       <Lesitungen2/>
+<Referenzen/>
       {/* <Kontakt1/> */}
       {/* <Kontakt2/> */}
       {/* <Kontakt3/> */}
