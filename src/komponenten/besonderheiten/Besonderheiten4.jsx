@@ -17,7 +17,7 @@ const Besonderheiten4 = () => {
           const valueDisplay = entry.target;
           let startValue = 0;
           let endValue = parseInt(valueDisplay.getAttribute("data-val"));
-          let interval = 3000;
+          let interval = 1000;
           let duration = Math.floor(interval / endValue);
           let counter = setInterval(function () {
             startValue += 1;
@@ -44,9 +44,10 @@ const Besonderheiten4 = () => {
 
   return (
     <div className="bg-gray-800 p-6 py-12">
+      <h2 className="text-2xl sm:text-3xl uppercase text-white mb-12 text-center">Unsere Zahlen sprechen für sich</h2>{" "}
       <div className="flex flex-col sm:flex-row justify-center items-center">
-        <div className=" px-12">
-          <div className="flex justify-center items-center">
+        <div className="mb-6 sm:mb-0 px-8">
+          <div className="flex justify-center items-center ">
             <span
               className="num text-white text-4xl font-bold "
               data-val="400"
@@ -54,36 +55,44 @@ const Besonderheiten4 = () => {
             >
               000
             </span>
-            <Add sx={{fontSize: 35, fontWeight:"bolder"}} className="text-white" />
+            <Add
+              sx={{ fontSize: 35, fontWeight: "bold" }}
+              className="text-white"
+            />
           </div>
-          <span>Betreute Kunden</span>
-
+          <span className="text-white text-lg ">Betreute Kunden</span>
         </div>
-        <div className=" px-12">
-          <div className="flex justify-center items-center">
+        <div className="mb-6 sm:mb-0 px-8">
+          <div className="flex justify-center items-center ">
             <span
               className="num text-white text-4xl font-bold"
-              data-val="400"
+              data-val="98"
               ref={(el) => (valueDisplaysRef.current[1] = el)}
             >
               000
             </span>
-            <Percent className="text-white "/>
+            <Percent
+              sx={{ fontSize: 35, fontWeight: "bold" }}
+              className="text-white "
+            />
           </div>
-          <span>Zufriedene Kunden</span>
+          <span className="text-white text-lg ">Zufriedene Kunden</span>
         </div>
-        <div className=" px-12">
+        <div className="mb-6 sm:mb-0 px-8">
           <div className="flex justify-center items-center">
             <span
               className="num text-white text-4xl font-bold"
-              data-val="400"
+              data-val="323"
               ref={(el) => (valueDisplaysRef.current[2] = el)}
             >
               000
             </span>
-            <Add />
+            <Add
+              sx={{ fontSize: 35, fontWeight: "bold" }}
+              className="text-white"
+            />
           </div>
-          <span>Vermittelte Objekte</span>
+          <span className="text-white text-lg ">Vermittelte Objekte</span>
         </div>
       </div>
     </div>

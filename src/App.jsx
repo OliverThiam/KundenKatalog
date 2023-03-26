@@ -15,6 +15,8 @@ import Hero3 from "./komponenten/hero/Hero3";
 import Kontakt1 from "./komponenten/kontakt/Kontakt1";
 import Kontakt2 from "./komponenten/kontakt/Kontakt2";
 import Kontakt3 from "./komponenten/kontakt/Kontakt3";
+import Leistungen1 from "./komponenten/leistungen/Leistungen1";
+import Lesitungen2 from "./komponenten/leistungen/Lesitungen2";
 import Navbar1 from "./komponenten/navbars/Navbar1";
 import Probieren from "./komponenten/Probieren";
 import Team1 from "./komponenten/team/Team1";
@@ -25,18 +27,20 @@ function App() {
     <div className="App">
       <Navbar1 />
       {/* <Hero1 /> */}
-      {/* <Hero2/> */}
-      <Hero3/>
+      <Hero2/>
+      {/* <Hero3/> */}
       {/* <AboutUs1 /> */}
       {/* <AboutUs2 /> */}
       {/* <AboutUs3 /> */}
       {/* <AboutUs4 /> */}
-      {/* <Team1/> */}
+      <Team1/>
       {/* <BilderGallery1/> */}
       {/* <Besonderheiten/> */}
       {/* <Besonderheiten2/> */}
       {/* <Besonderheiten3/> */}
       <Besonderheiten4/>
+      <Leistungen1/>
+      <Lesitungen2/>
       {/* <Kontakt1/> */}
       {/* <Kontakt2/> */}
       {/* <Kontakt3/> */}
