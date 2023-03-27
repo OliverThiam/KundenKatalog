@@ -26,7 +26,7 @@ const Navbar1 = () => {
   return (
     <nav
     style={{zIndex: 70}}
-      className={` w-full flex justify-between bg-gray-800 text-textwhite items-center p-4 py-6 font-poppins ${scroll > vhToPixels(100) ? "menu-fadeIn fixed" : ""}`}
+      className={` w-full fixed flex justify-between bg-gray-800 text-textwhite items-center p-4 py-6 font-poppins ${scroll > vhToPixels(100) || scroll === 0 ? "translate-y-[0] menu-fadeIn" : "translate-y-[-80px] "}`}
     >
       <div className="flex flex-col">
         <span className="cursor-pointer hover:text-primary duration-300 text-xl">

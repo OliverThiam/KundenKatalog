@@ -8,7 +8,7 @@ import bild3 from "../../assets/farmhaus.jpg";
 const Hero1 = () => {
   return (
     <div className="relative h-[92vh] overflow-hidden">
-      <div className="text-container block max-w-[800px] text-center mx-auto p-4">
+      <div className="text-container1 block max-w-[800px] text-center mx-auto p-4">
         <div className="mb-6">
           <h1 className="text-5xl text-white font-bold">
             Deine perfekte Webseite

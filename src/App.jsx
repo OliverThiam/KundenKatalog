@@ -30,24 +30,24 @@ function App() {
       {/* <Hero1 /> */}
       {/* <Hero2/> */}
       <Hero3/>
-      {/* <AboutUs1 /> */}
-      {/* <AboutUs2 /> */}
-      {/* <AboutUs3 /> */}
-      {/* <AboutUs4 /> */}
-      {/* <Team1/> */}
-      {/* <BilderGallery1/> */}
-      {/* <Besonderheiten/> */}
-      {/* <Besonderheiten2/> */}
-      {/* <Besonderheiten3/> */}
-      {/* <Besonderheiten4/> */}
-      {/* <Leistungen1/> */}
+      <AboutUs1 />
+      <AboutUs2 />
+      <AboutUs3 />
+      <AboutUs4 />
+      <Team1/>
+      <BilderGallery1/>
+      <Besonderheiten/>
+      <Besonderheiten2/>
+      <Besonderheiten3/>
+      <Besonderheiten4/>
+      <Leistungen1/>
       <Lesitungen2/>
 <Referenzen1/>
-      {/* <Kontakt1/> */}
-      {/* <Kontakt2/> */}
-      {/* <Kontakt3/> */}
+      <Kontakt1/>
+      <Kontakt2/>
+      <Kontakt3/>
       {/* <Probieren/> */}
-      {/* <Footer1/> */}
+      <Footer1/>
       <Footer2/>
     </div>
   );

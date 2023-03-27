@@ -8,8 +8,8 @@ import { Facebook, Instagram, WhatsApp } from "@mui/icons-material";
 
 const Hero3 = () => {
   return (
-    <div className="relative h-[92vh] overflow-hidden">
-      <div className="text-container block max-w-[800px] text-center mx-auto p-4">
+    <div className="relative h-[100vh] sm:h-[100vh] overflow-hidden">
+      <div className="text-container3 flex flex-col max-w-[800px] text-center mx-auto p-4">
         <div className="mb-6">
           <h1 className="text-5xl text-white font-bold">
             Deine perfekte Webseite

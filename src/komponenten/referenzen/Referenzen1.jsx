@@ -34,8 +34,16 @@ const Referenzen1 = () => {
     <div className="referenzen1-container py-12">
       <div className="referenzen1-image-container">
         {bilder.map((bild, index) => (
-          <div className="referenzen1-image">
-            <img src={bild} alt="bild" className="" />
+          <div className="referenzen1-image referenzen1-up-parent">
+            <div className="relative">
+              <img src={bild} alt="bild" className="" />
+              <div className=" referenzen1-up-child referenzen1-span-down absolute px-2 bottom-0  w-full bg-black bg-opacity-50 ">
+                <span className="  text-white text-xl font-bold">
+                  Irgendein-Projekt
+                
+                </span>
+              </div>
+            </div>
           </div>
         ))}
       </div>
@@ -43,7 +51,7 @@ const Referenzen1 = () => {
         <span>&times;</span>
 
         <div className="">
-          <Splide
+          <Splide 
             options={{
               arrows: true,
               perMove: 1,
@@ -52,12 +60,16 @@ const Referenzen1 = () => {
           >
             {bilder.map((bild, index) => (
               <SplideSlide
-                style={{ display: "flex", justifyContent: "center", alignItems: "center" }}
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                }}
               >
                 <img
                   src={bild}
                   alt=""
-                  className="height-[80%] w-full mt-[200px] sm:mt-0"
+                  className="height-[80%] w-full mt-[200px] sm:mt-24 md:mt-0"
                 />
               </SplideSlide>
             ))}
