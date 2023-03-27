@@ -19,7 +19,7 @@ import Leistungen1 from "./komponenten/leistungen/Leistungen1";
 import Lesitungen2 from "./komponenten/leistungen/Lesitungen2";
 import Navbar1 from "./komponenten/navbars/Navbar1";
 import Probieren from "./komponenten/Probieren";
-import Referenzen from "./komponenten/referenzen/Referenzen";
+import Referenzen1 from "./komponenten/referenzen/Referenzen1";
 import Team1 from "./komponenten/team/Team1";
 import TeamCard1 from "./komponenten/team/TeamCard1";
 
@@ -42,7 +42,7 @@ function App() {
       {/* <Besonderheiten4/> */}
       {/* <Leistungen1/> */}
       <Lesitungen2/>
-<Referenzen/>
+<Referenzen1/>
       {/* <Kontakt1/> */}
       {/* <Kontakt2/> */}
       {/* <Kontakt3/> */}

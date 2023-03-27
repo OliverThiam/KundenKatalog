@@ -28,7 +28,7 @@ const Lesitungen2 = () => {
               {faq1 == null
                 ? console.log("null")
                 : faq1.leistungen.map((faq, index) => (
-                    <div className="border-b-[1px] ">
+                    <div key={index} className="border-b-[1px] ">
                       <Accordion
                         key={index}
                         sx={{ pr: 2, boxShadow: "none",  }}
