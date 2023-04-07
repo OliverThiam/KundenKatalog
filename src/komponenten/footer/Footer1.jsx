@@ -6,6 +6,7 @@ const Footer1 = () => {
       <div className="flex flex-col sm:flex-row justify-around">
         <div className="mb-6 sm:mb-0">
           <p className="text-3xl">Logo</p>
+          <p>hallo</p>
         </div>
         <div className="mb-6 sm:mb-0">
           <p className="text-lg font-bold mb-2">Informationen</p>
