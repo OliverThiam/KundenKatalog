@@ -5,7 +5,6 @@ const Footer1 = () => {
     <footer className="bg-black text-white p-6 py-12">
       <div className="flex flex-col sm:flex-row justify-around">
         <div className="mb-6 sm:mb-0">
-          <p>Mütterficken</p>
           <p className="text-3xl">Logo</p>
         </div>
         <div className="mb-6 sm:mb-0">
